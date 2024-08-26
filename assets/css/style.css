@@ -11889,6 +11889,7 @@ textarea.form-control-lg {
 
 .button-group {
   display: flex;
+  justify-content: center;
 }
 
 .btn-live, .btn-rep {
@@ -11902,7 +11903,6 @@ textarea.form-control-lg {
 
 .display-2 {
   margin-bottom: 1rem;
-  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
 .display-2--intro {
@@ -12026,6 +12026,7 @@ textarea.form-control-lg {
 .portfolio-box img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 .portfolio-box .portfolio-info {
   background-color: rgba(153, 38, 240, 0.75);
